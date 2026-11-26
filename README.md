@@ -10,6 +10,9 @@ A little shop of funny self-exploration tests — built one by one, three new te
 - 002 拖延症 Boss 战 — Procrastination Boss Battle
 - 003 脑雾救援站 — Brain Fog Rescue Station
 - 004 社交电量模拟器 — Social Battery Simulator
+- 005 熬夜修仙图鉴 — Night-Owl Cultivator
+- 006 干饭人段位测试 — Foodie Rank
+- 007 选择困难症大作战 — Decision Paralysis
 
 More tests are added daily. Each test has funny scenario questions, a mini-game, a friend mode (a friend answers about you), and a shareable result card. Entertainment and self-exploration only — not psychology, not diagnosis.
 

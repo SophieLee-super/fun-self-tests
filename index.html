@@ -284,13 +284,13 @@
 
         <div style="margin-top:28px;border:2.5px solid var(--line);border-radius:var(--radius);background:var(--mustard);color:#1c1a17;padding:16px 18px;box-shadow:var(--shadow-sm)">
           <strong class="display" style="font-size:1.35rem">今日上新 · 2026-11-26</strong>
-          <span style="font-weight:700"> — 一天做三个，今天的三个已经全部做完并上架：002 拖延症 Boss 战、003 脑雾救援站、004 社交电量模拟器。点下方任意一张卡就能直接开测。</span>
-          <div style="margin-top:8px;font-size:.98rem;font-weight:700">节奏固定下来了：每天 +3 个测试，明天上 005 / 006 / 007。做完一批，就推一次 GitHub。</div>
+          <span style="font-weight:700"> — 一天做三个，今天的三个已经全部做完并上架：005 熬夜修仙图鉴、006 干饭人段位测试、007 选择困难症大作战。点下方任意一张卡就能直接开测，005–007 还能让朋友替你答。</span>
+          <div style="margin-top:8px;font-size:.98rem;font-weight:700">节奏固定下来了：每天 +3 个测试，明天上 008 / 009 / 010。做完一批，就推一次 GitHub。</div>
         </div>
 
         <div class="shelf">
           <h2 class="display">测试小卖部 · 货架</h2>
-          <p class="lead">一个一个上架，慢慢长成一个平台。001–004 已可玩，005 起明天继续。</p>
+          <p class="lead">一个一个上架，慢慢长成一个平台。001–007 已可玩，008 起明天继续。</p>
           <div class="shelf-grid">
             <div class="shelf-item live">
               <div><h3>001 · 穿搭风格测试</h3><p>你的衣柜出卖了你 · 12 题 + 衣柜扫荡</p></div>
@@ -308,24 +308,41 @@
               <div><h3>004 · 社交电量模拟器</h3><p>一块电池过完一整场聚会 · 10 题 + 电量保卫战</p></div>
               <span class="st">▶ 开测</span>
             </button>
+            <div class="shelf-item live">
+              <div><h3>005 · 熬夜修仙图鉴</h3><p>Night-Owl Cultivator · 你是哪种熬夜修仙者 · 10 题 + 深夜补给站</p></div>
+              <span style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end">
+                <button class="st" id="btn-play-005" type="button" style="cursor:pointer;font:inherit;background:var(--teal);color:#fff">▶ 开测</button>
+                <button class="st" id="btn-friend-005" type="button" style="cursor:pointer;font:inherit;background:var(--paper);color:var(--ink)">好友替答</button>
+              </span>
+            </div>
+            <div class="shelf-item live">
+              <div><h3>006 · 干饭人段位测试</h3><p>Foodie Rank · 你的干饭段位有多高 · 10 题 + 干饭补给站</p></div>
+              <span style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end">
+                <button class="st" id="btn-play-006" type="button" style="cursor:pointer;font:inherit;background:var(--teal);color:#fff">▶ 开测</button>
+                <button class="st" id="btn-friend-006" type="button" style="cursor:pointer;font:inherit;background:var(--paper);color:var(--ink)">好友替答</button>
+              </span>
+            </div>
+            <div class="shelf-item live">
+              <div><h3>007 · 选择困难症大作战</h3><p>Decision Paralysis · 你是哪种选择困难星人 · 10 题 + 决策武器库</p></div>
+              <span style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end">
+                <button class="st" id="btn-play-007" type="button" style="cursor:pointer;font:inherit;background:var(--teal);color:#fff">▶ 开测</button>
+                <button class="st" id="btn-friend-007" type="button" style="cursor:pointer;font:inherit;background:var(--paper);color:var(--ink)">好友替答</button>
+              </span>
+            </div>
             <div class="shelf-item soon">
-              <div><h3>005 · 钱包漏水侦探</h3><p>在钱包漏干之前抓住你的冲动消费</p></div>
+              <div><h3>008 · 钱包漏水侦探</h3><p>在钱包漏干之前抓住你的冲动消费</p></div>
               <span class="st">明天上新</span>
             </div>
             <div class="shelf-item soon">
-              <div><h3>006 · 你脑内的室友</h3><p>严厉教练？戏精？还是摆烂诗人？</p></div>
+              <div><h3>009 · 你脑内的室友</h3><p>严厉教练？戏精？还是摆烂诗人？</p></div>
               <span class="st">明天上新</span>
             </div>
             <div class="shelf-item soon">
-              <div><h3>007 · 睡前手机审判</h3><p>最后一刷，到底刷的是手机还是明天？</p></div>
+              <div><h3>010 · 睡前手机审判</h3><p>最后一刷，到底刷的是手机还是明天？</p></div>
               <span class="st">明天上新</span>
-            </div>
-            <div class="shelf-item soon">
-              <div><h3>008 · 开学人格切换</h3><p>假期里的你和上课的你，是同一个人吗？</p></div>
-              <span class="st">排期中</span>
             </div>
           </div>
-          <p style="color:var(--ink-soft);font-size:1rem;margin-top:12px">002–004 都是单人模式：10 道题，含 1 道 5 秒本能二选一 + 1 关 8 秒小游戏，结果有 6 种人格、成分条和徽章，和 001 一样可用同一个解锁码打开完整报告。</p>
+          <p style="color:var(--ink-soft);font-size:1rem;margin-top:12px">002–007 都是 10 道题，含 1 道 5 秒本能二选一 + 1 关 8 秒小游戏，结果有 6 种人格、成分条和徽章，和 001 一样可用同一个解锁码打开完整报告。005–007 还多了「好友替答」：先自己测，再把手机递给朋友，让 TA 替你答 5 道题，看看 TA 眼中的你准不准。全部测试都是娱乐向自我探索，不是心理测评，更不是诊断。</p>
         </div>
 
         <div class="seller-pack" id="seller-pack">
@@ -368,8 +385,9 @@
           <h3>③ 每天三个的更新节奏（固定动作）</h3>
           <ul>
             <li><strong>Day 1：</strong>001 穿搭风格测试 ✅</li>
-            <li><strong>Day 2 · 今天 2026-11-26：</strong>002 拖延症 Boss 战 ✅ · 003 脑雾救援站 ✅ · 004 社交电量模拟器 ✅</li>
-            <li><strong>Day 3 · 明天：</strong>005 钱包漏水侦探 · 006 你脑内的室友 · 007 睡前手机审判</li>
+            <li><strong>Day 2 · 2026-11-26：</strong>002 拖延症 Boss 战 ✅ · 003 脑雾救援站 ✅ · 004 社交电量模拟器 ✅</li>
+            <li><strong>Day 3 · 今天 2026-11-26：</strong>005 熬夜修仙图鉴 ✅ · 006 干饭人段位测试 ✅ · 007 选择困难症大作战 ✅</li>
+            <li><strong>Day 4 · 明天：</strong>008 钱包漏水侦探 · 009 你脑内的室友 · 010 睡前手机审判</li>
             <li>每次更新只做三件事：货架上把「制作中」改成「▶ 开测」、README 更新日志加一行、commit 信息写 <em>feat: add 00X-00X tests</em> 再 push</li>
           </ul>
           <h3>④ 重要提醒</h3>
@@ -1205,8 +1223,199 @@ setInterval(function(){
   }
 }, 400);
 /* GitHub pack buttons */
-var _br = document.getElementById("btn-copy-readme"); if(_br) _br.addEventListener("click", function(){ copyText("# 趣味测试小卖部 fun-tests-shop\n\n一个一个上架的趣味测试平台，静态站，GitHub Pages 直接部署。\n\n## 测试清单\n- 001 穿搭风格测试 · 你的衣柜出卖了你 ✅\n- 002 拖延症 Boss 战 ✅ (2026-11-26)\n- 003 脑雾救援站 ✅ (2026-11-26)\n- 004 社交电量模拟器 ✅ (2026-11-26)\n- 005 钱包漏水侦探 · 006 你脑内的室友 · 007 睡前手机审判（明天）\n\n## 更新节奏\n每天 +3 个测试，推一次 GitHub。\n\n## 说明\n娱乐向趣味测试，仅供好玩和自我观察，不构成专业建议。解锁码明文不进仓库，页面只存哈希指纹。"); var n=document.getElementById("github-note"); if(n) n.textContent="README 模板已复制，去仓库新建 README.md 粘贴即可。"; });
-var _bc = document.getElementById("btn-copy-commit"); if(_bc) _bc.addEventListener("click", function(){ copyText("feat: add 002 procrastination boss, 003 brain fog rescue, 004 social battery tests (2026-11-26, 3 tests of the day)"); var n=document.getElementById("github-note"); if(n) n.textContent="今日 commit 信息已复制，push 时直接粘贴。"; });
+var _br = document.getElementById("btn-copy-readme"); if(_br) _br.addEventListener("click", function(){ copyText("# 趣味测试小卖部 fun-tests-shop\n\n一个一个上架的趣味测试平台，静态站，GitHub Pages 直接部署。\n\n## 测试清单\n- 001 穿搭风格测试 · 你的衣柜出卖了你 ✅\n- 002 拖延症 Boss 战 ✅ (2026-11-26)\n- 003 脑雾救援站 ✅ (2026-11-26)\n- 004 社交电量模拟器 ✅ (2026-11-26)\n- 005 熬夜修仙图鉴 ✅ (2026-11-26)\n- 006 干饭人段位测试 ✅ (2026-11-26)\n- 007 选择困难症大作战 ✅ (2026-11-26)\n- 008 钱包漏水侦探 · 009 你脑内的室友 · 010 睡前手机审判（明天）\n\n## 更新节奏\n每天 +3 个测试，推一次 GitHub。\n\n## 说明\n娱乐向趣味测试，仅供好玩和自我观察，不构成专业建议。解锁码明文不进仓库，页面只存哈希指纹。"); var n=document.getElementById("github-note"); if(n) n.textContent="README 模板已复制，去仓库新建 README.md 粘贴即可。"; });
+var _bc = document.getElementById("btn-copy-commit"); if(_bc) _bc.addEventListener("click", function(){ copyText("feat: add 005 night-owl cultivator, 006 foodie rank, 007 decision paralysis tests (2026-11-26, 3 tests of the day)"); var n=document.getElementById("github-note"); if(n) n.textContent="今日 commit 信息已复制，push 时直接粘贴。"; });
+</script>
+<script>
+"use strict";
+/* ===== Day 3: 005 / 006 / 007 (with friend mode) ===== */
+DEEP_LABELS.owl = { plan: "你的「下线收功」计划", avoid: "最容易让你熬穿的陷阱", tip: "专属提醒" };
+DEEP_LABELS.foodie = { plan: "你的干饭升级路线", avoid: "最容易踩的干饭雷区", tip: "专属提醒" };
+DEEP_LABELS.decision = { plan: "你的快速决策练习", avoid: "最容易让你卡住的选择陷阱", tip: "专属提醒" };
+
+/* let activateTest also swap the friend-question bank per test */
+var _OUTFIT_FQ = FRIEND_QUESTIONS;
+var _origActivateTest = activateTest;
+activateTest = function(id, def){
+  _origActivateTest(id, def);
+  if(id === "outfit"){ FRIEND_QUESTIONS = _OUTFIT_FQ; }
+  else if(def && def.friendQs){ FRIEND_QUESTIONS = def.friendQs; }
+};
+function startFriendTest(id, def){ resetFlow(); activateTest(id, def); startRun(newRun("friend", "main")); toast(def.friendToast || def.toast); }
+
+/* per-test friend-result verdicts + share text */
+var FRIEND_TEXTS = {
+  owl: {
+    same: "TA 眼中的你，和你测出来的一模一样——熬夜这件事上，你在朋友面前毫无伪装，夜里那点动静全被看在眼里。",
+    mid: "大体对得上，但有偏差：你以为自己是「{A}」，朋友眼里你更像「{B}」。熬夜的真相，往往旁观者清。",
+    low: "认知大地震！你以为自己是「{A}」，朋友却说你分明是「{B}」。建议今晚当面对质，看谁先睡着。",
+    share: "好友眼中的我：我以为自己的熬夜人格是{A}，朋友却说我是{B}，认知一致度 {M}%！你也来测测你是哪种熬夜修仙者，再让朋友替你答答看？"
+  },
+  foodie: {
+    same: "TA 眼中的你，和你测出来的一模一样——干饭段位这种事，饭桌上的人最有发言权，你的段位实至名归。",
+    mid: "大体对得上，但有偏差：你以为自己是「{A}」，朋友眼里你更像「{B}」。段位高低，旁观者清。",
+    low: "认知大地震！你以为自己是「{A}」，朋友却说你分明是「{B}」。建议立刻约一顿饭，当场验明段位。",
+    share: "好友眼中的我：我以为自己的干饭段位是{A}，朋友却说我是{B}，认知一致度 {M}%！你也来测测你的干饭段位，再让朋友替你答答看？"
+  },
+  decision: {
+    same: "TA 眼中的你，和你测出来的一模一样——你纠结的样子朋友全看在眼里，这个结果毫无悬念。",
+    mid: "大体对得上，但有偏差：你以为自己是「{A}」，朋友眼里你更像「{B}」。你纠结的方式，可能和你想的不太一样。",
+    low: "认知大地震！你以为自己是「{A}」，朋友却说你分明是「{B}」。建议下一次拿不定主意，就让 TA 替你拍板。",
+    share: "好友眼中的我：我以为自己的选择困难类型是{A}，朋友却说我是{B}，认知一致度 {M}%！你也来测测你是哪种选择困难星人，再让朋友替你答答看？"
+  }
+};
+var _origShowFriendResult = showFriendResult;
+showFriendResult = function(){
+  _origShowFriendResult();
+  var ft = FRIEND_TEXTS[window._activeTestId];
+  if(!ft || !flow.friendView) return;
+  var mine = topStyle(flow.p1.scores), seen = topStyle(flow.friendView.scores);
+  var match = overlapPercent(flow.p1.scores, flow.friendView.scores);
+  var verdict;
+  if(mine === seen){ match = Math.max(match, 90); verdict = ft.same; }
+  else if(match >= 55){ verdict = ft.mid.replace("{A}", STYLES[mine].name).replace("{B}", STYLES[seen].name); }
+  else { verdict = ft.low.replace("{A}", STYLES[mine].name).replace("{B}", STYLES[seen].name); }
+  var v = document.querySelector("#duo-slot .verdict"); if(v) v.textContent = verdict;
+  var mn = document.querySelector("#duo-slot .match-num .n"); if(mn) mn.textContent = match + "%";
+  lastShareText = ft.share.replace("{A}", STYLES[mine].name).replace("{B}", STYLES[seen].name).replace("{M}", match);
+};
+/* solo result heading per new test */
+setInterval(function(){
+  var who = document.querySelector("#result-slot .who");
+  if(!who) return;
+  var map = { owl: "你的熬夜修仙人格是", foodie: "你的干饭段位是", decision: "你的选择困难类型是" };
+  if(map[window._activeTestId]) who.textContent = map[window._activeTestId];
+}, 400);
+
+var TEST_OWL = {
+  toast: "修仙开始！看看你是哪种熬夜修仙者",
+  friendToast: "先自己测，测完把手机递给朋友替你答",
+  styles: {
+    grinder: { name: "赶工渡劫型", en: "DEADLINE ASCETIC", color: "#b3543f", mantra: "「白天欠的，夜里加倍还。」", desc: "你的夜不是拿来玩的，是拿来还债的：白天拖下的活、没写完的东西，全在深夜被你一件件清算。你不是爱熬夜，你是被白天的自己坑了。", power: "深夜专注力惊人，越晚越清醒，赶工速度直接拉满。", weak: "白天继续欠、夜里继续还，恶性循环；黑眼圈是你的年轮。", items: "没写完的文档、第二杯咖啡", scene: "全楼只剩你一盏灯的深夜" },
+    scroller: { name: "刷机飞升型", en: "INFINITE SCROLLER", color: "#2f5d8a", mantra: "「再刷五分钟，就五分钟。」", desc: "你的修仙方式是躺着的：一部手机、一床被子、一个永远刷不到底的推荐页。五分钟复五分钟，等回过神天都快亮了——而且你甚至说不出刚才看了啥。", power: "全网热点无一漏网，深夜冲浪冠军本军。", weak: "睡前越刷越精神，第二天越困越后悔，早睡的 flag 已经倒了八百次。", items: "刷不到底的推荐页、只剩 1% 的意志力", scene: "被窝里的深夜影院" },
+    gamer: { name: "开黑上分型", en: "NIGHT RAID GAMER", color: "#3e6b4f", mantra: "「最后一局，打完就睡！」", desc: "你的夜属于队友和峡谷：白天唯唯诺诺，深夜重拳出击。「最后一局」能续八局——赢了想乘胜追击，输了想赢回来，反正就是下不了线。", power: "反应和手速在深夜达到巅峰，团队氛围担当。", weak: "作息跟着战绩坐过山车，输的那晚格外睡不着。", items: "机械键盘、永远在喊「开开开」的队友", scene: "深夜的游戏语音频道" },
+    thinker: { name: "夜思成仙型", en: "MIDNIGHT PHILOSOPHER", color: "#6d4c8c", mantra: "「夜里想通的，白天又忘了。」", desc: "一到深夜，你的大脑就自动召开哲学研讨会：人生、未来、白天那句没接好的话，全在夜里复盘。灵感是真的多，能记住的是真的少。", power: "深夜产出过你最清醒的想法和最好的决定。", weak: "想得越多睡得越晚，第二天还要为今晚的感悟买单。", items: "备忘录里的深夜小作文、窗外的月亮", scene: "关了灯的天花板下" },
+    snacker: { name: "夜宵祭胃型", en: "MIDNIGHT SNACKER", color: "#d97b16", mantra: "「修仙先修胃，夜宵是丹药。」", desc: "你的深夜是按「顿」计算的：十一点加餐、一点夜宵、三点还能再整点。别人熬夜伤肝，你熬夜长肉——但快乐是真的快乐。", power: "深夜美食地图了如指掌，哪家店开到凌晨三点你门儿清。", weak: "胃和体重替你承受了所有，睡前吃太饱还睡不踏实。", items: "泡面加蛋、凌晨还营业的那家烧烤", scene: "深夜的厨房和外卖软件" },
+    forced: { name: "被迫营业型", en: "RELUCTANT OWL", color: "#3a3a44", mantra: "「不是我想熬，是生活不让睡。」", desc: "你对熬夜毫无兴趣，奈何事情永远做不完：作业、工作、消息，一件接一件。你是修仙界里最想飞升（下班 / 交差）的那个，可惜雷劫天天有。", power: "抗压能力极强，再晚都能把事情兜住。", weak: "长期睡眠不足，休息时还有负罪感，连睡个懒觉都觉得奢侈。", items: "没回完的消息、排到明天的待办", scene: "被迫亮着的台灯下" }
+  },
+  questions: [
+    { type: "choice", q: "晚上十一点，你的夜生活才刚刚开始，第一件事是？", sub: "诚实作答，月亮都看着呢。", opts: [ { t: "打开电脑，白天欠的债夜里还", s: { grinder: 2 } }, { t: "往床上一躺，先刷五分钟手机再说", s: { scroller: 2 } }, { t: "喊上队友，开黑上分", s: { gamer: 2 } }, { t: "先点份夜宵，修仙先祭五脏庙", s: { snacker: 2 } } ] },
+    { type: "choice", q: "你熬夜的「正当理由」最常是？", sub: "选出现次数最多的那个。", opts: [ { t: "白天效率太低，只能夜里补", s: { grinder: 2 } }, { t: "夜里安静，灵感自己来敲门", s: { thinker: 2 } }, { t: "没理由，就是睡不着，手机太好刷", s: { scroller: 2 } }, { t: "事情没做完，不是我想熬", s: { forced: 2 } } ] },
+    { type: "choice", q: "凌晨一点的你，最像哪种状态？", sub: "回忆一下昨晚。", opts: [ { t: "眼睛通红，键盘敲得冒火星", s: { grinder: 2 } }, { t: "一边打哈欠一边「最后一局」", s: { gamer: 2 } }, { t: "脑子异常清醒，开始思考人生", s: { thinker: 2 } }, { t: "被消息和待办追着跑，根本不敢睡", s: { forced: 2 } } ] },
+    { type: "choice", q: "你的手机深夜最常打开的是？", sub: "屏幕使用时间不会说谎。", opts: [ { t: "短视频，一刷就是一小时起步", s: { scroller: 2 } }, { t: "游戏，图标都磨亮了", s: { gamer: 2 } }, { t: "外卖软件，看着看着就下单了", s: { snacker: 2 } }, { t: "备忘录，深夜小作文生产基地", s: { thinker: 2 } } ] },
+    { type: "choice", q: "朋友劝你早点睡，你的回答最像？", sub: "说吧，这里没有外人。", opts: [ { t: "「你们先睡，我这把打完」", s: { gamer: 2 } }, { t: "「马上睡」（然后又刷了一小时）", s: { scroller: 2 } }, { t: "「我也想睡，活儿不允许」", s: { forced: 2 } }, { t: "「夜里才是我的主场」", s: { thinker: 2 } } ] },
+    { type: "speed", q: "本能二选一：困意来袭，你选择？", sub: "限时 5 秒！凭本能点。", opts: [ { t: "硬撑！夜还长着呢", s: { grinder: 2 } }, { t: "先吃点夜宵续命", s: { snacker: 2 } } ] },
+    { type: "closet", q: "深夜补给站！", sub: "8 秒内抢走你深夜最离不开的 3 样东西，点中即抢。" },
+    { type: "choice", q: "熬到凌晨三点，你的身体在？", sub: "选最真实的那个。", opts: [ { t: "亢奋，感觉还能再战三小时", s: { gamer: 2 } }, { t: "飘了，灵魂出窍但脑子还在转", s: { thinker: 2 } }, { t: "饿了，满脑子都是吃的", s: { snacker: 2 } }, { t: "累，但停不下来，事情还没完", s: { forced: 2 } } ] },
+    { type: "choice", q: "第二天早上，你的起床画风是？", sub: "闹钟已经响了八遍了。", opts: [ { t: "灵魂还在昨夜，闹钟响到邻居都醒了", s: { scroller: 2 } }, { t: "顶着黑眼圈，继续还白天欠的债", s: { grinder: 2 } }, { t: "中午才起，今晚再战", s: { gamer: 2 } }, { t: "照常早起，谁让我是被迫营业的", s: { forced: 2 } } ] },
+    { type: "choice", q: "给你的熬夜封个号，你是？", sub: "最后一题，修仙结业考试。", opts: [ { t: "夜猫本猫，越夜越精神", s: { scroller: 2 } }, { t: "灵感型夜行者", s: { thinker: 2 } }, { t: "干饭修仙两不误", s: { snacker: 2 } }, { t: "被生活推着熬的打工人", s: { forced: 2 } } ] }
+  ],
+  items: [ { emo: "☕", nm: "咖啡续命", s: "grinder" }, { emo: "💻", nm: "打开电脑", s: "grinder" }, { emo: "📱", nm: "满电手机", s: "scroller" }, { emo: "📺", nm: "下饭神剧", s: "scroller" }, { emo: "🎮", nm: "游戏手柄", s: "gamer" }, { emo: "🎧", nm: "队友语音", s: "gamer" }, { emo: "📓", nm: "灵感本子", s: "thinker" }, { emo: "🍵", nm: "一杯热茶", s: "thinker" }, { emo: "🍜", nm: "泡面加蛋", s: "snacker" }, { emo: "🍗", nm: "炸鸡外卖", s: "snacker" }, { emo: "⏰", nm: "明早闹钟", s: "forced" }, { emo: "📚", nm: "未完的活", s: "forced" } ],
+  deep: {
+    grinder: { plan: "①白天先干掉最难的那一件，夜里只留收尾；②给自己定一个「下线时间」，到点就合上电脑；③今晚要做的写成清单放桌上，不带进被窝。", avoid: "别再用「夜里效率高」给白天的拖延发许可证。", tip: "你不是夜猫子，你是白天欠债、夜里还息。把债挪回白天，夜就还给你了。" },
+    scroller: { plan: "①睡前把手机放到够不着的地方充电；②真想看就定 15 分钟闹钟，响了立刻停；③把「再刷五分钟」换成「再看最后一条」，说到做到。", avoid: "别在床上打开短视频——被窝加推荐页，是熬穿神器。", tip: "你缺的不是自制力，是物理距离。手机离床远一米，睡眠早来一小时。" },
+    gamer: { plan: "①开局前先定「今晚最多三局」，写在便利贴上；②连败两局立刻下线，状态不对不硬打；③十一点半之后不开新局。", avoid: "别用「赢回来再睡」当借口，那是上分路上的无底洞。", tip: "真正的强者能准时下线。守住作息，明天的手感才不用还债。" },
+    thinker: { plan: "①床头放个本子，想法先写下来再睡，大脑就不用替你记着；②复盘限时十分钟，到点不想了；③白天找人把心里的事聊出来，别全攒到夜里。", avoid: "别在凌晨做重大决定，深夜的感悟先睡一觉再验证。", tip: "夜里想通的先记下来，能经得起白天阳光的，才是真的想通。" },
+    snacker: { plan: "①夜宵提前到睡前两小时，给胃留消化时间；②重油重辣换成热牛奶、小份水果；③刷完牙就不再开吃，用仪式感封印食欲。", avoid: "别躺着刷美食视频，看饿了下单，胃和钱包一起遭殃。", tip: "快乐可以留：分量减一半、时间提前点，胃会谢谢你。" },
+    forced: { plan: "①睡前把明天的待办写下来，脑子不用值夜班；②能推到明天的事，今晚坚决不碰；③再忙也守住一个「最晚睡觉时间」，雷打不动。", avoid: "别用熬夜换「我很努力」的安慰，透支的效率迟早连本带利还回去。", tip: "你已经很能扛了。学会说「明天再处理」，不是摆烂，是给明天留一个清醒的自己。" }
+  },
+  friendQs: [
+    { type: "choice", q: "TA 的深夜画风最像？", sub: "凭你对 TA 的了解，别客气。", opts: [ { t: "赶工还债，键盘敲到冒火星", s: { grinder: 2 } }, { t: "躺床上刷手机，越刷越精神", s: { scroller: 2 } }, { t: "开黑上分，「最后一局」续八局", s: { gamer: 2 } }, { t: "关了灯还在想事情", s: { thinker: 2 } } ] },
+    { type: "choice", q: "TA 说「马上睡」之后，通常还会？", sub: "你懂的，说真话。", opts: [ { t: "再刷一小时手机", s: { scroller: 2 } }, { t: "再打一局游戏", s: { gamer: 2 } }, { t: "再吃点夜宵", s: { snacker: 2 } }, { t: "其实还在干活，根本没停", s: { grinder: 2 } } ] },
+    { type: "choice", q: "TA 第二天的黑眼圈，多半来自？", sub: "破案时间到。", opts: [ { t: "没做完的事，被迫熬的", s: { forced: 2 } }, { t: "想太多，脑子停不下来", s: { thinker: 2 } }, { t: "手机太好刷了", s: { scroller: 2 } }, { t: "夜宵局太热闹", s: { snacker: 2 } } ] },
+    { type: "choice", q: "TA 深夜最可能发出什么动静？", sub: "选最耳熟的那个。", opts: [ { t: "朋友圈深夜小作文", s: { thinker: 2 } }, { t: "美食图，深夜放毒", s: { snacker: 2 } }, { t: "游戏战绩截图", s: { gamer: 2 } }, { t: "什么都不发，在默默赶活", s: { grinder: 2 } } ] },
+    { type: "choice", q: "一句话形容 TA 的作息，你选？", sub: "最后一题，说真话，TA 不会打你（大概）。", opts: [ { t: "夜行生物，越夜越精神", s: { scroller: 2 } }, { t: "被迫营业，想睡睡不成", s: { forced: 2 } }, { t: "灵感夜猫，夜里才开机", s: { thinker: 2 } }, { t: "干饭不分昼夜", s: { snacker: 2 } } ] }
+  ]
+};
+
+var TEST_FOODIE = {
+  toast: "开测！看看你的干饭段位有多高",
+  friendToast: "先自己测，测完把手机递给朋友替你答",
+  styles: {
+    rookie: { name: "青铜尝鲜者", en: "BRONZE ROOKIE", color: "#7a6234", mantra: "「有啥吃啥，饱了就行。」", desc: "你的干饭哲学是「不挑」：食堂、路边摊、外卖盲盒，什么都能吃得香。别人还在纠结吃什么的时候，你已经吃上了。段位虽低，快乐很稳。", power: "从不为吃饭纠结，随和到谁约饭都愿意带上你。", weak: "好吃的东西从你面前路过，你可能都没注意到。", items: "食堂今日特价、随便哪家面馆", scene: "离自己最近的那张餐桌" },
+    hunter: { name: "白银寻味者", en: "SILVER HUNTER", color: "#2f5d8a", mantra: "「为了一口吃的，跨半个城算什么。」", desc: "你的手机里存着一张秘密美食地图：巷子里的苍蝇馆子、只开半天的老店、排队也要吃的限定款。为了吃，你的行动力能翻三倍。", power: "跟着你吃饭从不踩雷，朋友聚餐都等你发定位。", weak: "时间和交通费在美食面前不值一提，钱包经常为「值得」买单。", items: "收藏了 200 家的探店清单、跑断腿也要吃的那家店", scene: "城市角落里的宝藏小店" },
+    critic: { name: "黄金点评家", en: "GOLD CRITIC", color: "#b3543f", mantra: "「先别动筷，听我分析。」", desc: "你吃饭是带评委席的：火候、调味、性价比，心里的小本本记得明明白白。菜单到你手里像试卷，差评区是你最后的防线。", power: "点菜从不翻车，避雷能力全桌最强。", weak: "有时分析太久，菜都凉了；和你吃饭的人压力有点大。", items: "写满备注的点评笔记、必看的差评区", scene: "上菜后先观察三秒的那一桌" },
+    chef: { name: "铂金下厨派", en: "PLATINUM HOME CHEF", color: "#3e6b4f", mantra: "「外面再香，不如我自己做的。」", desc: "你的快乐在厨房里：菜市场是你的逛街，灶台是你的舞台。外卖软件在你手机里地位最低，因为你的拿手菜名单一直在变长。", power: "想吃什么自己复刻，健康和口味都自己说了算。", weak: "在外面吃到好吃的，第一反应是拆解做法，吃得不太专心。", items: "用顺手的那口锅、周末的菜市场", scene: "热气腾腾的自家厨房" },
+    buffet: { name: "钻石扫盘王", en: "DIAMOND BUFFET KING", color: "#d97b16", mantra: "「自助的意义，就是回本。」", desc: "你是饭桌上的战术大师：先巡场、后下手，贵的先吃、占肚子的后吃。有你在的聚餐，最后一个放下筷子的永远是你，盘子干净得像洗过。", power: "食量与战斗力齐飞，聚餐兜底从不浪费。", weak: "容易吃撑，快乐之后是扶着墙出的门。", items: "自助餐厅的巡场路线、永远还能再吃一口的胃", scene: "自助餐取餐区的第一线" },
+    master: { name: "王者干饭宗师", en: "GRANDMASTER FOODIE", color: "#c2437e", mantra: "「干饭即修行，一口见真章。」", desc: "量、质、品鉴、下厨，你全都拉满：能吃出门道，也能吃出气势；能跨城寻味，也能亲自下厨。干饭对你不是填肚子，是一门认真对待的生活艺术。", power: "味觉、食量、行动力三项全能，朋友圈公认的干饭天花板。", weak: "段位太高，普通的饭局已经很难让你惊艳了。", items: "挑剔的味觉、永远为下一顿留的半分胃口", scene: "任何一张值得认真对待的餐桌" }
+  },
+  questions: [
+    { type: "choice", q: "打开外卖软件，你的第一反应是？", sub: "诚实作答，软件都看着呢。", opts: [ { t: "随便点个评分高的，饱了就行", s: { rookie: 2 } }, { t: "翻收藏夹，那几家都是宝藏", s: { hunter: 2 } }, { t: "先看差评区，避雷再说", s: { critic: 2 } }, { t: "关掉软件，自己下厨", s: { chef: 2 } } ] },
+    { type: "choice", q: "朋友说「随便吃点」，你会？", sub: "「随便」可是最难的题。", opts: [ { t: "真随便，楼下哪家都行", s: { rookie: 2 } }, { t: "脑子里已经列出三家备选", s: { hunter: 2 } }, { t: "先研究一下，这题不能乱答", s: { critic: 2 } }, { t: "走，去我家，我露一手", s: { chef: 2 } } ] },
+    { type: "choice", q: "吃自助餐时，你的战术是？", sub: "取餐区就是你的战场。", opts: [ { t: "吃饱就停，不为难自己", s: { rookie: 2 } }, { t: "先巡场一圈，再决定先攻哪样", s: { buffet: 2 } }, { t: "专攻贵的，先把本吃回来", s: { buffet: 1, critic: 1 } }, { t: "浅尝辄止，回家自己做更香", s: { chef: 2 } } ] },
+    { type: "choice", q: "你的手机相册里，哪类照片最多？", sub: "打开相册，说实话。", opts: [ { t: "美食图，去哪吃哪拍哪", s: { hunter: 2 } }, { t: "自己做的菜，成品必须留影", s: { chef: 2 } }, { t: "餐厅菜单和点评截图", s: { critic: 2 } }, { t: "没啥吃的，自拍和风景为主", s: { rookie: 2 } } ] },
+    { type: "choice", q: "一家网红店要排队两小时，你？", sub: "队伍已经排到街口了。", opts: [ { t: "不排，好吃的多得是", s: { rookie: 2 } }, { t: "排！来都来了", s: { hunter: 2 } }, { t: "先查攻略看值不值，再决定", s: { critic: 2 } }, { t: "回家复刻一个，不信做不出来", s: { chef: 2 } } ] },
+    { type: "speed", q: "本能二选一：桌上最后一块肉，你？", sub: "限时 5 秒！手快有，手慢无。", opts: [ { t: "毫不犹豫，夹走！", s: { buffet: 2 } }, { t: "先拍照留念，再优雅夹走", s: { critic: 2 } } ] },
+    { type: "closet", q: "干饭补给站！", sub: "8 秒内抢走你最想吃的 3 样，点中即抢，手慢无。" },
+    { type: "choice", q: "吃到一道特别好吃的菜，你的第一反应是？", sub: "选最真实的那个。", opts: [ { t: "默默吃完，心满意足", s: { rookie: 2 } }, { t: "立刻安利给所有朋友", s: { hunter: 2 } }, { t: "在心里打分并写好评语", s: { critic: 2 } }, { t: "研究做法，回家复刻", s: { chef: 2 } } ] },
+    { type: "choice", q: "你的干饭名言最像哪句？", sub: "选最耳熟的那句。", opts: [ { t: "「吃饱就行，别整那些虚的」", s: { rookie: 2 } }, { t: "「人生苦短，必须吃好」", s: { master: 2 } }, { t: "「没有什么是一顿火锅解决不了的」", s: { buffet: 2 } }, { t: "「好吃的店，值得跑一趟」", s: { hunter: 2 } } ] },
+    { type: "choice", q: "如果干饭有段位，你觉得自己配得上？", sub: "最后一题，封神之战。", opts: [ { t: "青铜，谦虚使人进步", s: { rookie: 2 } }, { t: "黄金，点评从不翻车", s: { critic: 2 } }, { t: "钻石，量与质我全都要", s: { buffet: 2 } }, { t: "王者，干饭即修行", s: { master: 2 } } ] }
+  ],
+  items: [ { emo: "🍚", nm: "白米饭", s: "rookie" }, { emo: "🍜", nm: "方便面", s: "rookie" }, { emo: "🍢", nm: "路边摊串串", s: "hunter" }, { emo: "🗺️", nm: "探店清单", s: "hunter" }, { emo: "📝", nm: "点评笔记", s: "critic" }, { emo: "🔍", nm: "差评区", s: "critic" }, { emo: "🍳", nm: "自己的锅", s: "chef" }, { emo: "🥬", nm: "新鲜食材", s: "chef" }, { emo: "🦐", nm: "海鲜自助", s: "buffet" }, { emo: "🍰", nm: "甜品台", s: "buffet" }, { emo: "🍖", nm: "大块肉", s: "master" }, { emo: "🍲", nm: "一锅热炖", s: "master" } ],
+  deep: {
+    rookie: { plan: "①每周给自己安排一顿「认真吃」的，别总随便对付；②跟着朋友的推荐清单吃一圈；③吃到好吃的记下来，慢慢攒自己的美食地图。", avoid: "别总用「随便」错过好吃的——你的胃值得被认真对待一次。", tip: "不挑是福气，偶尔挑一次，是给生活加菜。" },
+    hunter: { plan: "①把清单按区域整理，顺路时一家家拔草；②每月给探店设个预算上限；③好吃的店认真写两句记录，下次带朋友来不迷路。", avoid: "别为一家网红店排两小时队到低血糖，先垫一口再排。", tip: "你的地图是宝藏，把它用好，别让它只躺在收藏夹里。" },
+    critic: { plan: "①点评先说三句好的再提建议，饭桌气氛更好；②偶尔放下评委席，单纯享受一顿；③把笔记整理成清单，朋友会把你当美食博主供着。", avoid: "别让分析凉了菜，也凉了同桌人的兴致。", tip: "最高级的点评，是吃完之后那句真诚的「这家值得再来」。" },
+    chef: { plan: "①每月挑战一道新菜，拍照存档；②请朋友来家里吃，快乐分享才翻倍；③偶尔也去外面吃，给自己找新灵感。", avoid: "别因为自己会做就顿顿硬扛，做饭是爱好不是任务。", tip: "你的灶台是宝藏，记得偶尔也让别人为你下一次厨。" },
+    buffet: { plan: "①自助先巡场再下手，再加一条：八分饱就收；②聚餐兜底前先问一句大家还要不要，别独自硬撑；③吃撑的那顿，下一顿清淡点平衡回来。", avoid: "别为「回本」把自己吃到难受，回本的前提是人舒服。", tip: "能吃是福，能收住才是宗师级的修养。" },
+    master: { plan: "①把段位传给身边人：带朋友吃一顿好的；②把你心中前十的店记下来，做成自己的美食年鉴；③保持好奇心，新菜系、新做法永远去试。", avoid: "别因为段位高就看不上家常菜，最抚人心的往往是那碗热汤面。", tip: "宗师的终极修养，是既吃得讲究，也吃得简单快乐。" }
+  },
+  friendQs: [
+    { type: "choice", q: "TA 吃饭时最像？", sub: "凭你对 TA 的了解，别客气。", opts: [ { t: "有啥吃啥，从不挑", s: { rookie: 2 } }, { t: "为了一口吃的能跑断腿", s: { hunter: 2 } }, { t: "先点评一番再动筷", s: { critic: 2 } }, { t: "动不动就自己下厨", s: { chef: 2 } } ] },
+    { type: "choice", q: "TA 的手机相册里，最多的是？", sub: "你懂的，说真话。", opts: [ { t: "美食图，去哪拍哪", s: { hunter: 2 } }, { t: "自己做的菜", s: { chef: 2 } }, { t: "几乎没吃的", s: { rookie: 2 } }, { t: "全是餐厅和菜单截图", s: { critic: 2 } } ] },
+    { type: "choice", q: "聚餐时，TA 通常负责？", sub: "饭桌上的分工最能说明问题。", opts: [ { t: "扫盘兜底，绝不浪费", s: { buffet: 2 } }, { t: "点菜担当，从不翻车", s: { critic: 2 } }, { t: "找店担当，定位 TA 发", s: { hunter: 2 } }, { t: "吃饱就好，随和本和", s: { rookie: 2 } } ] },
+    { type: "choice", q: "TA 对自助餐的态度是？", sub: "破案时间到。", opts: [ { t: "必须回本，战术拉满", s: { buffet: 2 } }, { t: "随便吃吃，吃饱就行", s: { rookie: 2 } }, { t: "先研究哪样最贵", s: { critic: 2 } }, { t: "不如自己在家做", s: { chef: 2 } } ] },
+    { type: "choice", q: "一句话形容 TA 的干饭段位，你选？", sub: "最后一题，说真话，TA 不会打你（大概）。", opts: [ { t: "青铜本铜，快乐就好", s: { rookie: 2 } }, { t: "钻石扫盘王", s: { buffet: 2 } }, { t: "王者干饭宗师", s: { master: 2 } }, { t: "黄金点评家", s: { critic: 2 } } ] }
+  ]
+};
+
+var TEST_DECISION = {
+  toast: "大作战开始！看看你是哪种选择困难星人",
+  friendToast: "先自己测，测完把手机递给朋友替你答",
+  styles: {
+    coin: { name: "抛币听天型", en: "COIN FLIPPER", color: "#d97b16", mantra: "「选不出来？交给命运。」", desc: "你的决策系统非常先进：硬币、骰子、抽签、小公鸡点到谁。有趣的是，硬币在空中翻转的那一秒，你心里其实已经有答案了。", power: "决策速度全场最快，从不内耗。", weak: "重大决定也想抛硬币的时候，朋友会拦住你。", items: "幸运硬币、手机里的骰子软件", scene: "任何需要当场拍板的时刻" },
+    research: { name: "攻略查尽型", en: "RESEARCH ADDICT", color: "#2f5d8a", mantra: "「等我看完这十篇测评。」", desc: "你不是选不出来，你是信息永远不够：测评、对比、参数、差评区，一个都不能少。等你查完，活动结束了，链接下架了，你还在查。", power: "买到的东西几乎从不踩雷，功课做得比卖家还细。", weak: "决策周期以周计算，错过的好价比踩的雷还多。", items: "开了三十个标签页的对比表、写满字的备忘录", scene: "深夜的测评区和参数页" },
+    follow: { name: "跟风随缘型", en: "GO WITH THE FLOW", color: "#17877b", mantra: "「你们定，我都行。」", desc: "你的选择困难有一半是随和：大家吃什么你吃什么，销量第一是什么你买什么。省心是真省心，偶尔也会想：我到底喜欢什么来着？", power: "从不为选择内耗，团队和谐度拉满。", weak: "自己的偏好长期待机，久了容易连自己想要什么都说不清。", items: "销量第一的那个选项、朋友的同款链接", scene: "人群里最随和的那个位置" },
+    regret: { name: "纠结后悔型", en: "SECOND GUESSER", color: "#c2437e", mantra: "「是不是另一个更好……」", desc: "你选之前纠结，选之后更纠结：奶茶点完想换口味，衣服买完盯着另一件。你的大脑自带「如果当初」回放功能，循环播放，关不掉。", power: "复盘能力极强，下一次选择确实会更准。", weak: "快乐总被「另一个更好」打折，享受当下的能力被内耗偷走。", items: "购物车里的备选、退货页面", scene: "拿到手之后反复对比的每一刻" },
+    allin: { name: "全都要型", en: "I WANT IT ALL", color: "#b3543f", mantra: "「小孩子才做选择。」", desc: "你的解法简单粗暴：不选了，全买。奶茶两杯一起点，外卖两家一起下单。选择困难在你这里不成立，成立的是钱包困难。", power: "体验拉满，什么都尝过，人生样本量巨大。", weak: "钱包和胃轮流抗议，买回来用不上的也不少。", items: "爆满的购物车、并排打开的两个外卖软件", scene: "结算页面前的豪迈一刻" },
+    procrast: { name: "拖延逃避型", en: "DECIDE LATER", color: "#3a3a44", mantra: "「先放着，明天再说。」", desc: "你的选择困难是慢性子的：不选，也不放弃，先收藏、先放着、先睡一觉。有些事拖着拖着有了答案，有些拖着拖着……就过期了。", power: "从不冲动决定，避开了很多冲动的坑。", weak: "机会不等人，有些「明天再说」没有明天。", items: "收藏夹里吃灰的链接、写了又删的回复", scene: "截止日期前一晚的深夜" }
+  },
+  questions: [
+    { type: "choice", q: "点一杯奶茶，你的状态是？", sub: "菜单已经在你手里五分钟了。", opts: [ { t: "先查哪款是新品、测评怎么说", s: { research: 2 } }, { t: "让店员推荐，TA 说啥我点啥", s: { follow: 2 } }, { t: "抛硬币决定喝哪杯", s: { coin: 2 } }, { t: "先收藏这家店，明天再喝", s: { procrast: 2 } } ] },
+    { type: "choice", q: "网购一件衣服，你的购物车画风是？", sub: "大数据已经看透你了。", opts: [ { t: "塞了二十件，等一个契机全清空", s: { allin: 2 } }, { t: "对比测评看了十篇，还没下单", s: { research: 2 } }, { t: "买完就后悔没买另一件", s: { regret: 2 } }, { t: "跟着销量第一买，准没错", s: { follow: 2 } } ] },
+    { type: "choice", q: "朋友问「中午吃什么」，你？", sub: "每日灵魂拷问，如约而至。", opts: [ { t: "「都行」（其实心里在疯狂筛选）", s: { follow: 2 } }, { t: "掏出手机，开始查附近评分", s: { research: 2 } }, { t: "选好又推翻，前后换了三家", s: { regret: 2 } }, { t: "点双人套餐，全都尝一口", s: { allin: 2 } } ] },
+    { type: "choice", q: "你的选择困难名场面是？", sub: "选最丢人的那个。", opts: [ { t: "站在货架前十分钟，对比两瓶酱油", s: { research: 2 } }, { t: "选电影选了一小时，电影没看成", s: { procrast: 2 } }, { t: "剪刀石头布决定去哪玩", s: { coin: 2 } }, { t: "买回来又退掉，换另一个", s: { regret: 2 } } ] },
+    { type: "choice", q: "deadline 逼近，必须立刻做决定时，你会？", sub: "没时间了，快选！", opts: [ { t: "最后一秒闭眼选一个", s: { coin: 2 } }, { t: "把选择权交给朋友", s: { follow: 2 } }, { t: "全选，反正退货方便", s: { allin: 2 } }, { t: "能拖就拖，拖到它自己解决", s: { procrast: 2 } } ] },
+    { type: "speed", q: "本能二选一：组队选边，红队还是蓝队？", sub: "限时 5 秒！别想，凭本能。", opts: [ { t: "红队，凭直觉走", s: { coin: 2 } }, { t: "哪边人多选哪边", s: { follow: 2 } } ] },
+    { type: "closet", q: "决策武器库！", sub: "8 秒内抢走你最常用的 3 样决策武器，点中即抢。" },
+    { type: "choice", q: "选专业、选工作这种大事，你的方式是？", sub: "这次可不能抛硬币了（或者可以？）。", opts: [ { t: "列 pros & cons 表格，列到凌晨", s: { research: 2 } }, { t: "听过来人的，跟着大流走", s: { follow: 2 } }, { t: "选完反复想「要是当初选另一个」", s: { regret: 2 } }, { t: "先拖着，船到桥头自然直", s: { procrast: 2 } } ] },
+    { type: "choice", q: "你的口头禅最像哪句？", sub: "选最耳熟的那句。", opts: [ { t: "「你帮我选吧」", s: { follow: 2 } }, { t: "「我再想想」", s: { procrast: 2 } }, { t: "「要不都买吧」", s: { allin: 2 } }, { t: "「命运指引我选这个」", s: { coin: 2 } } ] },
+    { type: "choice", q: "如果选择困难有段位，你是？", sub: "最后一题，大作战收官。", opts: [ { t: "查遍全网才敢下单型", s: { research: 2 } }, { t: "选完必后悔星人", s: { regret: 2 } }, { t: "全都要本要", s: { allin: 2 } }, { t: "硬币是我的军师", s: { coin: 2 } } ] }
+  ],
+  items: [ { emo: "🪙", nm: "幸运硬币", s: "coin" }, { emo: "🎲", nm: "骰子", s: "coin" }, { emo: "📊", nm: "对比表格", s: "research" }, { emo: "🔍", nm: "测评合集", s: "research" }, { emo: "👯", nm: "朋友同款", s: "follow" }, { emo: "🏆", nm: "销量第一", s: "follow" }, { emo: "↩️", nm: "退货通道", s: "regret" }, { emo: "💊", nm: "后悔药", s: "regret" }, { emo: "🛒", nm: "加满购物车", s: "allin" }, { emo: "💳", nm: "分期付款", s: "allin" }, { emo: "⏰", nm: "明天再说", s: "procrast" }, { emo: "📌", nm: "先收藏着", s: "procrast" } ],
+  deep: {
+    coin: { plan: "①小事继续交给硬币，省下精力；②大事先列三条标准再抛币，抛完心里冒头的那个就是答案；③抛完就执行，不许反悔重抛。", avoid: "别在硬币落地后连抛三次——那不是命运，是你在找借口。", tip: "硬币最大的作用不是替你选，是帮你听见自己真正想要的那个。" },
+    research: { plan: "①给每次查攻略设时限：小事 10 分钟、大事一天；②只看三篇测评就收手；③时限一到，按已有信息立刻下单。", avoid: "别让「再查一篇」无限续杯，信息过载只会更不敢选。", tip: "80 分信息做出的决定，胜过 100 分信息拖来的过期机会。" },
+    follow: { plan: "①每周留一次「我说了算」：自己点一杯奶茶，不看任何人；②把喜欢的东西随手记下来，攒自己的偏好清单；③说「都行」之前，先在心里过一遍自己想不想要。", avoid: "别把随和过成没主见，你的喜好值得被你自己先听见。", tip: "随和是美德，前提是你先知道自己想要什么。" },
+    regret: { plan: "①选完后给决定一个「冷静期」：24 小时内不许对比备选；②把注意力放在已选的好处上，写下来；③记住：另一个选项的缺点，你只是没看见而已。", avoid: "别在刚下单后去刷另一件的买家秀，那是给自己找不痛快。", tip: "没有完美选项，只有选完之后把它过好的本事。" },
+    allin: { plan: "①全买之前先冷静一晚，第二天还全想要再下单；②给「全都要」设月度上限；③用不上的及时退或送人，别让它们在家吃灰提醒你。", avoid: "别用分期掩盖超支，全都要的账单最后也是全都要还。", tip: "真正的全都要，是时间和钱包都自由；先攒自由，再谈全要。" },
+    procrast: { plan: "①收藏夹每周清一次：买、删、或定日期，三选一；②小事设「今晚之前」的死线；③拖了超过三天的决定，先选一个默认答案执行起来。", avoid: "别让「明天再说」连说七天，有些机会的保质期比牛奶还短。", tip: "先选一个能改的决定，比等一个完美的决定更接近答案。" }
+  },
+  friendQs: [
+    { type: "choice", q: "TA 点奶茶时通常？", sub: "凭你对 TA 的了解，别客气。", opts: [ { t: "纠结半天，点完还想换", s: { regret: 2 } }, { t: "先查测评，研究明白再点", s: { research: 2 } }, { t: "你点啥 TA 点啥", s: { follow: 2 } }, { t: "抛硬币，命运决定", s: { coin: 2 } } ] },
+    { type: "choice", q: "TA 网购的画风是？", sub: "你懂的，说真话。", opts: [ { t: "全加购物车，犹豫就会全买", s: { allin: 2 } }, { t: "看十篇测评才敢下单", s: { research: 2 } }, { t: "买完就后悔没买另一个", s: { regret: 2 } }, { t: "先收藏着，半年后再说", s: { procrast: 2 } } ] },
+    { type: "choice", q: "大家拿不定主意时，TA 会？", sub: "破案时间到。", opts: [ { t: "掏出硬币 / 剪刀石头布", s: { coin: 2 } }, { t: "说「都行」，随大流", s: { follow: 2 } }, { t: "提议全都要", s: { allin: 2 } }, { t: "说「明天再定吧」", s: { procrast: 2 } } ] },
+    { type: "choice", q: "TA 选完之后最常？", sub: "选最真实的后续。", opts: [ { t: "立刻后悔，反复对比另一个", s: { regret: 2 } }, { t: "转头就忘了这回事", s: { procrast: 2 } }, { t: "开始查另一个选项的测评", s: { research: 2 } }, { t: "逢人安利自己的选择", s: { follow: 2 } } ] },
+    { type: "choice", q: "一句话形容 TA 的选择困难，你选？", sub: "最后一题，说真话，TA 不会打你（大概）。", opts: [ { t: "硬币军师型", s: { coin: 2 } }, { t: "攻略查尽型", s: { research: 2 } }, { t: "全都要型", s: { allin: 2 } }, { t: "拖延逃避型", s: { procrast: 2 } } ] }
+  ]
+};
+
+var _p005 = document.getElementById("btn-play-005"); if(_p005) _p005.addEventListener("click", function(){ startNewTest("owl", TEST_OWL); });
+var _f005 = document.getElementById("btn-friend-005"); if(_f005) _f005.addEventListener("click", function(){ startFriendTest("owl", TEST_OWL); });
+var _p006 = document.getElementById("btn-play-006"); if(_p006) _p006.addEventListener("click", function(){ startNewTest("foodie", TEST_FOODIE); });
+var _f006 = document.getElementById("btn-friend-006"); if(_f006) _f006.addEventListener("click", function(){ startFriendTest("foodie", TEST_FOODIE); });
+var _p007 = document.getElementById("btn-play-007"); if(_p007) _p007.addEventListener("click", function(){ startNewTest("decision", TEST_DECISION); });
+var _f007 = document.getElementById("btn-friend-007"); if(_f007) _f007.addEventListener("click", function(){ startFriendTest("decision", TEST_DECISION); });
 </script>
 </body>
 </html>
