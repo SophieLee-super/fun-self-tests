@@ -355,7 +355,7 @@
             <li>衣柜人格测试 穿搭风格趣味测试 娱乐向自我探索 分享卡+完整报告</li>
           </ul>
           <h3>② 定价建议</h3>
-          <p><span class="price-tag">首发 ¥9.9</span> &nbsp;免费版先看结果预览，付费解锁完整报告。跑通 20 单后再测 ¥12.9 / ¥19.9。虚拟商品选「无需物流 / 自动发货」，用下方发货话术手动或用自动发货工具发送解锁码，一人一码。</p>
+          <p><span class="price-tag">统一定价 ¥0.99</span> &nbsp;免费版先看结果预览，付费解锁完整报告。就卖这个价，不涨价：便宜到盗版转卖根本没利润——官方永远是最便宜的，谁在别处高价卖这个测试，谁就是搬运的。虚拟商品选「无需物流 / 自动发货」，用下方发货话术手动或用自动发货工具发送解锁码，一人一码。</p>
           <h3>③ 详情页文案（复制到淘宝详情）</h3>
           <p>【这是什么】不是正经问卷，是一场会笑出声的穿搭审判：12 道场景题 + 限时二选一 + 8 秒衣柜大扫荡，测出你藏在衣柜里的真实画风。共 8 种结果：极简教主、法式松弛怪、街头野生派、甜酷辣妹、老钱静奢、多巴胺彩虹人、复古收藏家、暗黑神秘客。<br>【你会得到】结果预览免费看；付费解锁完整报告：画风成分条、穿搭超能力、翻车预警、代表单品、7 天照着穿清单、避雷购物清单。<br>【好玩在哪】可以一个人测、两个人对穿看合拍度，还能把手机递给朋友让 TA 替你答，看 TA 眼中的你和你以为的你差多少。<br>【怎么用】下单后收到解锁码 → 打开测试链接做完测试 → 在结果页输入解锁码 → 完整报告立刻打开。链接和码请勿转发，一码一人。<br>【说明】娱乐向趣味测试，仅供好玩和自我观察，不是心理测评，不构成专业建议。</p>
           <h3>④ 发货话术（自动发货里粘贴这段，把 XXXX 换成码）</h3>
@@ -431,7 +431,7 @@
         <div id="result-slot"></div>
         <div class="lock-box" id="unlock-box-1">
           <h3 class="display">🔓 完整报告已锁定</h3>
-          <p>上面是免费预览。淘宝下单后会收到一个解锁码，输入后打开：画风成分、超能力与翻车预警、7 天照着穿清单和避雷清单。没有码？先把预览发给朋友玩。</p>
+          <p>上面是免费预览。淘宝下单后会收到一个解锁码，输入后打开：画风成分、超能力与翻车预警、7 天照着穿清单和避雷清单。官方价只要 ¥0.99，别处卖得比这贵的都是转卖，别上当。没有码？先把预览发给朋友玩。</p>
           <div class="lock-row"><input id="unlock-input-1" placeholder="输入解锁码，如 STYLE-XXXX-XXXX" autocomplete="off" /><button class="big-btn" id="btn-unlock-1" type="button">解锁完整报告</button></div>
           <p id="unlock-msg-1" style="margin-top:10px;font-weight:700"></p>
         </div>
@@ -566,7 +566,7 @@
       if(!v || !window.crypto || !crypto.subtle){ msg.textContent = "请输入解锁码。"; msg.style.color = "var(--coral)"; return; }
       sha256Hex(v).then(function(h){
         if(CODE_HASHES.indexOf(h) >= 0){ isUnlocked = true; msg.textContent = "✅ 解锁成功！完整报告已打开，往下看 ↓"; msg.style.color = "var(--teal)"; refreshLockUI(); }
-        else { msg.textContent = "这个码不对哦，检查一下有没有输错。没有码的话去淘宝下单，9.9 就能拿一个。"; msg.style.color = "var(--coral)"; }
+        else { msg.textContent = "这个码不对哦，检查一下有没有输错。没有码的话去淘宝下单，0.99 就能拿一个。"; msg.style.color = "var(--coral)"; }
       });
     }
     function refreshLockUI(){
@@ -1080,7 +1080,7 @@ $("btn-home1").addEventListener("click", function () { resetFlow(); show("screen
 $("btn-home2").addEventListener("click", function () { resetFlow(); show("screen-home");});
 var _ub1 = document.getElementById("btn-unlock-1"); if(_ub1) _ub1.addEventListener("click", function(){ tryUnlock("unlock-input-1","unlock-msg-1"); });
 var _ub2 = document.getElementById("btn-unlock-2"); if(_ub2) _ub2.addEventListener("click", function(){ tryUnlock("unlock-input-2","unlock-msg-2"); });
-var _bd = document.getElementById("btn-copy-detail"); if(_bd) _bd.addEventListener("click", function(){ copyText("感谢购买《穿搭风格测试 001》！你的专属解锁码：XXXX（卖家发货时替换）。用法：打开测试链接做完测试，在结果页「输入解锁码」处填入即可看完整报告。首发价 ¥9.9，一码一人请勿转发。遇到问题直接旺旺找我，我立刻补发～"); });
+var _bd = document.getElementById("btn-copy-detail"); if(_bd) _bd.addEventListener("click", function(){ copyText("感谢购买《穿搭风格测试 001》！你的专属解锁码：XXXX（卖家发货时替换）。用法：打开测试链接做完测试，在结果页「输入解锁码」处填入即可看完整报告。只要 ¥0.99，一码一人请勿转发。遇到问题直接旺旺找我，我立刻补发～"); });
 // Hook into result rendering: store top style and blur detail when locked
 var _origResultHTML = resultHTML;
 resultHTML = function(run, who){ var html = _origResultHTML(run, who); window._lastTop = topStyle(run.scores); if(!isUnlocked){ html = html.replace("<div class='kv'>", "<div class='kv locked-blur'>").replace("<div class='bars'>", "<div class='bars locked-blur'>"); var ds=document.getElementById("deep-slot"); if(ds) ds.innerHTML=""; } else { setTimeout(function(){ refreshLockUI(); }, 0); } return html; };

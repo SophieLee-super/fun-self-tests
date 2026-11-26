@@ -11,3 +11,7 @@
 - 003 脑雾救援站 — new
 - 004 社交电量模拟器 — new
 - First GitHub release: shop published to GitHub Pages.
+
+## 2026-11-26 (evening)
+- Price set by Kelly: full report unlock is now ¥0.99 everywhere (was ¥9.9); anti-resale note added to the unlock box.
+- LICENSE added: all rights reserved, no copying or reselling.
