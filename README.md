@@ -13,6 +13,11 @@ A little shop of funny self-exploration tests — built one by one, three new te
 - 005 熬夜修仙图鉴 — Night-Owl Cultivator
 - 006 干饭人段位测试 — Foodie Rank
 - 007 选择困难症大作战 — Decision Paralysis
+- 008 钱包漏水侦探 — Wallet Leak Detective
+- 009 你脑内的室友 — The Roommate in Your Head
+- 010 睡前手机审判 — Bedtime Phone Trial
+
+Coming next: 011 朋友圈潜水员 · 012 闹钟搏斗俱乐部 · 013 囤货仓鼠本鼠.
 
 More tests are added daily. Each test has funny scenario questions, a mini-game, a friend mode (a friend answers about you), and a shareable result card. Entertainment and self-exploration only — not psychology, not diagnosis.
 
