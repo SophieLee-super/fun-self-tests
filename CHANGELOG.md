@@ -25,3 +25,8 @@
 ## 2026-11-26 (evening)
 - Price set by Kelly: full report unlock is now ¥0.99 everywhere (was ¥9.9); anti-resale note added to the unlock box.
 - LICENSE added: all rights reserved, no copying or reselling.
+
+## 2026-11-28 (evening)
+- Public page is now showcase-only: seller pack and publishing pack removed; unlock box uses neutral copy.
+- Friend mode no longer needs passing the phone: invite-code sharing — a friend answers about you on their own device and sends back the comparison.
+- Daily +3 production PAUSED by Kelly (13 tests total for now).
