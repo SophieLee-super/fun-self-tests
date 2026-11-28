@@ -16,8 +16,11 @@ A little shop of funny self-exploration tests — built one by one, three new te
 - 008 钱包漏水侦探 — Wallet Leak Detective
 - 009 你脑内的室友 — The Roommate in Your Head
 - 010 睡前手机审判 — Bedtime Phone Trial
+- 011 朋友圈潜水员 — Moments Lurker
+- 012 闹钟搏斗俱乐部 — Alarm Clock Fight Club
+- 013 囤货仓鼠本鼠 — Hoarding Hamster
 
-Coming next: 011 朋友圈潜水员 · 012 闹钟搏斗俱乐部 · 013 囤货仓鼠本鼠.
+Coming next: 014 表情包收藏家 · 015 洗澡歌单人格 · 016 快递拆箱仪式感.
 
 More tests are added daily. Each test has funny scenario questions, a mini-game, a friend mode (a friend answers about you), and a shareable result card. Entertainment and self-exploration only — not psychology, not diagnosis.
 
